@@ -1,0 +1,34 @@
+site_name: "AI-агенты и Harness-инженерия — Каталог курсов на русском"
+site_description: "Русские переводы курсов по инженерии AI-агентов и harness-дизайну"
+site_url: https://galaersh-ai.github.io/ai-harness-courses-ru/
+repo_url: https://github.com/galaersh-ai/ai-harness-courses-ru
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - tables
+  - attr_list
+  - md_in_html
