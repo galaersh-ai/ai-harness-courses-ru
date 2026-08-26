@@ -86,6 +86,32 @@
 
 ---
 
+### 📚 RAG: полное руководство
+
+**Источник:** [Pinecone Learning Center](https://www.pinecone.io/learn/) — Pinecone Systems
+
+**О чём:** Две статьи от Pinecone о Retrieval-Augmented Generation — технологии, которая стала фундаментом современных AI-приложений. Первая объясняет основы: ограничения LLM, четыре компонента RAG и как они работают вместе. Вторая показывает, как RAG эволюционировал к 2025 году — от простого «векторная база + промпт» до агентных систем с изоляцией данных и гибридным поиском.
+
+**Что изучите:**
+- Почему фундаментальные модели «галлюцинируют» и чем это опасно
+- Четыре компонента RAG: ingestion → retrieval → augmentation → generation
+- Семантический vs лексический vs гибридный поиск
+- Chunking-стратегии и векторные эмбеддинги
+- Reranking и ground truth evaluations
+- Агентный RAG: агенты как оркестраторы поиска
+- Изоляция данных для multi-tenant агентов
+- Почему «забивание» контекстного окна хуже RAG
+- Fine-tuning vs RAG: когда что использовать
+
+**Объём:** 2 статьи
+
+**Стек:** Pinecone, vector databases, embeddings, hybrid search
+
+🌐 **Сайт:** [galaersh-ai.github.io/rag-articles-ru](https://galaersh-ai.github.io/rag-articles-ru/)
+📁 **Код:** [github.com/galaersh-ai/rag-articles-ru](https://github.com/galaersh-ai/rag-articles-ru)
+
+---
+
 ## Порядок изучения
 
 Для тех, кто только начинает:
@@ -93,6 +119,7 @@
 1. **Строим файлового агента** (6 уроков) — быстрый старт, минимальный агент
 2. **Строим AI-кодинг агент** (38 уроков) — полный каркас с нуля
 3. **Инженерия Harness** (15 лекций + проекты) — теория и продвинутые практики
+4. **RAG: полное руководство** (2 статьи) — фундамент для понимания, как агенты работают с данными
 
 ---
 
@@ -108,12 +135,14 @@
 
 - **Learn Harness Engineering** (WalkingLabs) — [MIT License](https://github.com/walkinglabs/learn-harness-engineering/blob/main/LICENSE). Перевод и распространение разрешены.
 - **Build Your Own AI Coding Agent Harness** и **Building Filesystem Agents** (Vercel Academy) — перевод выполнен в образовательных целях. Оригинальный контент принадлежит [Vercel](https://vercel.com). Если вы являетесь правообладателем и возражаете против перевода — свяжитесь с нами через [Issues](https://github.com/galaersh-ai/ai-harness-courses-ru/issues).
+- **RAG: полное руководство** (Pinecone) — перевод выполнен в образовательных целях. Оригинальный контент принадлежит [Pinecone Systems, Inc.](https://www.pinecone.io/). Если вы являетесь правообладателем и возражаете против перевода — свяжитесь с нами через [Issues](https://github.com/galaersh-ai/ai-harness-courses-ru/issues).
 
 ---
 
 ## Ссылки
 
 - [AI SDK документация](https://sdk.vercel.ai/docs)
+- [Pinecone Learning Center](https://www.pinecone.io/learn/)
 - [OpenAI: Harness engineering](https://openai.com/index/harness-engineering/)
 - [Anthropic: Effective harnesses for long-running agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents)
 - [Anthropic: Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-for-long-running-agents)
