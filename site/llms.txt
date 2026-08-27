@@ -1,0 +1,25 @@
+# AI-агенты и Harness-инженерия — Каталог курсов
+
+> Каталог русских переводов курсов по инженерии AI-агентов и harness-дизайну от Vercel Academy и WalkingLabs
+
+## О сайте
+
+Русскоязычный каталог переводов технических курсов по AI-инженерии. Контент включает:
+- Пошаговые уроки с кодом и примерами
+- Архитектурные паттерны для AI-агентов
+- Практические проекты и упражнения
+- Комментарии переводчика с адаптацией для русскоязычной аудитории
+
+## Курсы
+
+- [Строим AI-кодинг агент](https://galaersh-ai.github.io/ai-agent-harness-guide/) — перевод курса Build Your Own AI Coding Agent Harness
+- [Building Filesystem Agents](https://galaersh-ai.github.io/filesystem-agents-guide/) — файловый агент на bash-инструментах
+- [Learn Harness Engineering](https://galaersh-ai.github.io/learn-harness-engineering-guide/) — инженерия harness для AI-агентов
+
+## Переводчик
+
+Ершова Галина, с использованием Hermes AI Agent и mimo модели.
+
+## Лицензия
+
+Перевод выполнен с разрешения авторов. Оригинальный контент принадлежит авторам курсов (WalkingLabs — MIT, Vercel Academy — с дисклеймером).
