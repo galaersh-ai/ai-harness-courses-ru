@@ -5,6 +5,7 @@ repo_url: https://github.com/galaersh-ai/ai-harness-courses-ru
 
 theme:
   name: material
+  custom_dir: overrides
   language: ru
   palette:
     - scheme: default
@@ -22,6 +23,9 @@ theme:
   features:
     - navigation.top
     - content.code.copy
+
+extra_javascript:
+  - javascripts/metrika.js
 
 markdown_extensions:
   - admonition
